@@ -1,8 +1,8 @@
 from snownlp import SnowNLP
 #for file Dataset
-Dataset = open(r"/home/tommy/Downloads/Reviews-Dataset.csv", mode='a', encoding='utf-8')
+Dataset = open(r"Reviews-Dataset.csv", mode='a', encoding='utf-8')
 
-ReviewsDataset = open(r"/home/tommy/Downloads/Reviews-Dataset.csv", 'r', encoding='utf-8')
+ReviewsDataset = open(r"Reviews-Dataset.csv", 'r', encoding='utf-8')
 # here for read line in dataset file
 line = ReviewsDataset.readline()
 #num nlp
